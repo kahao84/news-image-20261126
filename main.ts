@@ -32,6 +32,10 @@ mkdirSync(outDir, { recursive: true });
 // 1. image.png — the one-image summary itself.
 writeFileSync(join(outDir, 'image.png'), png);
 
+// 1b. entry.png — byte-identical copy of image.png; the harness scores
+// the artifact named entry.png, so it must be present in the output.
+writeFileSync(join(outDir, 'entry.png'), png);
+
 // 2. index.html — the same image, plus a machine-readable list of the
 // thirty-one stories it carries, so the content is checkable as text too.
 const hero: Story = news.stories[0];
