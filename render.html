@@ -10,26 +10,27 @@
   .mast { background:#0B2545; padding:6px 14px 7px; }
   .mast-top { display:flex; justify-content:space-between; font-size:11px; letter-spacing:3px; color:#fff; font-weight:700; }
   .mast-top .r { color:#FF5A5A; letter-spacing:1px; }
-  h1 { font-family:Georgia, 'Times New Roman', serif; font-size:32px; line-height:1.05; color:#fff; margin-top:3px; }
+  h1 { font-family:Georgia, 'Times New Roman', serif; font-size:39px; line-height:1.05; color:#fff; margin-top:3px; }
   h1 .red { color:#FF3B30; }
   /* subtitle: one-line news summary */
   .sub { font-size:13px; font-weight:700; color:#0B2545; padding:4px 14px; border-bottom:2px solid #0B2545; white-space:nowrap; }
   .sub i { color:#C8102E; font-style:normal; margin:0 4px; }
   /* numbers strip */
-  .nums { display:flex; border-bottom:1px solid #DDD; padding:3px 0; }
+  .nums { display:flex; border-bottom:1px solid #DDD; padding:2px 0; }
   .num { flex:1; text-align:center; }
   .num b { font-family:Georgia, 'Times New Roman', serif; font-size:27px; line-height:1; color:#C8102E; display:block; }
   .num span { font-size:9px; line-height:1.25; color:#444; display:block; margin-top:2px; }
   /* region chips */
-  .regs { display:flex; justify-content:space-between; padding:4px 14px; font-size:10px; font-weight:700; color:#222; }
+  .regs { display:flex; justify-content:space-between; padding:3px 14px; font-size:10px; font-weight:700; color:#222; }
   .regs .dot { display:inline-block; width:8px; height:8px; border-radius:50%; margin-right:3px; vertical-align:0; }
   /* UTC timeline */
-  .utc { background:#0B2545; color:#fff; font-size:10px; padding:3px 14px; white-space:nowrap; }
+  .utc { background:#0B2545; color:#fff; font-size:10px; padding:2px 14px; white-space:nowrap; }
   .utc b { color:#FFD23F; }
   /* top 3 */
   .top3 { display:flex; gap:10px; padding:6px 14px 4px; }
   .top { flex:1; min-width:0; }
-  .top img { width:100%; height:98px; object-fit:cover; display:block; }
+  .top img { width:100%; height:88px; object-fit:cover; display:block; }
+  .top svg { width:100%; height:88px; display:block; }
   .kick { font-size:10px; font-weight:700; color:#0B2545; margin-top:5px; display:flex; justify-content:space-between; align-items:center; }
   .lbl { font-size:8px; font-weight:700; color:#fff; padding:1px 4px; border-radius:2px; white-space:nowrap; }
   .lbl.OFFICIAL { background:#15803D; } .lbl.CONFIRMED { background:#1D4ED8; }
@@ -41,11 +42,11 @@
   .sum { font-size:11px; line-height:1.3; color:#222; margin-top:2px; }
   .src { font-size:8.5px; color:#777; margin-top:3px; }
   /* section heads */
-  .sec { background:#C8102E; color:#fff; font-size:11.5px; font-weight:700; letter-spacing:1.5px; padding:3px 14px; margin:4px 0; }
+  .sec { background:#C8102E; color:#fff; font-size:11.5px; font-weight:700; letter-spacing:1.5px; padding:3px 14px; margin:3px 0; }
   /* small cards 4-13 */
   .grid { display:grid; grid-template-columns:repeat(5, 1fr); gap:7px; padding:0 14px; }
   .card { min-width:0; }
-  .card svg { width:100%; height:36px; display:block; }
+  .card svg { width:100%; height:30px; display:block; }
   .ck { font-size:8.5px; font-weight:700; color:#0B2545; margin-top:3px; display:flex; justify-content:space-between; align-items:center; gap:3px; }
   .ck .k { white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
   h3 { font-family:Georgia, 'Times New Roman', serif; font-size:11px; line-height:1.2; color:#0B2545; margin:2px 0; }
@@ -53,17 +54,18 @@
   .csrc { font-size:8px; color:#999; margin-top:1px; }
   /* map */
   .mapwrap { padding:0 14px; }
-  .mapwrap svg { width:996px; height:114px; display:block; }
+  .mapwrap svg { width:996px; height:151px; display:block; }
   /* also list */
   .also { display:flex; gap:14px; padding:1px 14px 0; }
   .acol { flex:1; min-width:0; }
-  .ai { font-size:9px; line-height:1.25; padding:1px 0; color:#111; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .ai { font-size:9.5px; line-height:1.25; padding:1px 0; color:#111; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .ai .asrc { font-size:8px; color:#888; }
   .ai .an { font-weight:700; }
   .ai .ak { font-weight:700; color:#0B2545; }
   .ai .tg { font-size:8px; font-weight:700; color:#7C3AED; }
   .ai .tg.claim { color:#DC2626; }
   /* date check + legend + sources */
-  .dc { border:2px solid #C8102E; margin:4px 14px 0; padding:3px 8px; font-size:10.5px; }
+  .dc { border:2px solid #C8102E; margin:4px 14px 0; padding:2px 8px; font-size:10px; }
   .dc b { color:#C8102E; }
   .how { font-size:9px; color:#333; padding:3px 14px 1px; }
   .how b { color:#111; }
@@ -71,25 +73,25 @@
 </style></head>
 <body><div class="page">
   <div class="mast">
-    <div class="mast-top"><span>THE WORLD IN ONE IMAGE</span><span class="r">THURSDAY 26 NOVEMBER 2026</span></div>
-    <h1>47 stories from one day<span class="red">.</span> One image<span class="red">.</span></h1>
+    <div class="mast-top"><span>THE WORLD IN ONE IMAGE</span><span class="r">41 STORIES FROM ONE DAY</span></div>
+    <h1>Thursday 26 November 2026<span class="red">.</span></h1>
   </div>
-  <div class="sub">Macy&rsquo;s centenary parade grounded by storm<i>&middot;</i>Trump unveils tariffs on 14 partners<i>&middot;</i>Missiles pound Kyiv overnight</div>
+  <div class="sub">Macy&rsquo;s centenary parade grounded by storm<i>&middot;</i>India marks 18 years since 26/11<i>&middot;</i>Gukesh&ndash;Sindarov Game 3 ends in draw</div>
   <div class="pad"><div class="nums">
     <div class="num"><b>100</b><span>Macy&rsquo;s parade: first<br>weather delay ever</span></div>
     <div class="num"><b>12,000+</b><span>Ebola cases in<br>DR Congo</span></div>
     <div class="num"><b>3.25%</b><span>Bank of Korea&rsquo;s<br>new rate</span></div>
     <div class="num"><b>14</b><span>economies in the<br>US tariff plan</span></div>
     <div class="num"><b>&euro;45bn</b><span>EU aid proposed<br>for Ukraine</span></div>
-    <div class="num"><b>36%</b><span>Bangladesh garment<br>pay rise</span></div>
+    <div class="num"><b>+12.2%</b><span>Australia&rsquo;s Q3 capex,<br>biggest rise since 2011</span></div>
   </div></div>
   <div class="regs">
-    <span><i class="dot" style="background:#2563EB"></i>North America 9</span>
-    <span><i class="dot" style="background:#D97706"></i>South Asia 6</span>
-    <span><i class="dot" style="background:#0D9488"></i>Europe 8</span>
+    <span><i class="dot" style="background:#2563EB"></i>North America 7</span>
+    <span><i class="dot" style="background:#D97706"></i>South Asia 4</span>
+    <span><i class="dot" style="background:#0D9488"></i>Europe 7</span>
     <span><i class="dot" style="background:#DC2626"></i>Middle East 4</span>
     <span><i class="dot" style="background:#16A34A"></i>Africa 5</span>
-    <span><i class="dot" style="background:#7C3AED"></i>World 4</span>
+    <span><i class="dot" style="background:#7C3AED"></i>World 3</span>
     <span><i class="dot" style="background:#EA580C"></i>East Asia 8</span>
     <span><i class="dot" style="background:#0891B2"></i>Oceania 2</span>
     <span><i class="dot" style="background:#DB2777"></i>South America 1</span>
@@ -105,24 +107,38 @@
       <div class="src">AP</div>
     </div>
     <div class="top">
-      <img src="photos/trump.jpg" alt="Trump holds up a tariffs chart">
-      <div class="kick"><span>WASHINGTON &middot; TRADE</span><span class="lbl OFFICIAL">OFFICIAL</span></div>
-      <h2>Trump unveils tariffs on 14 partners</h2>
-      <div class="why"><b>WHY IT MATTERS:</b> One move hits 14 economies at once.</div>
-      <div class="sum">Section 301 duties of 15&ndash;25% proposed on China, the EU, India, Japan and 10 more.</div>
-      <div class="src">USTR &middot; REUTERS</div>
+      <svg viewBox="0 0 320 98"><rect width="320" height="98" fill="#0B2545"/><g fill="#fff"><circle cx="20" cy="12" r="1.2"/><circle cx="300" cy="10" r="1.2"/><circle cx="280" cy="26" r="1"/><circle cx="45" cy="30" r="1"/><circle cx="150" cy="8" r="1.2"/><circle cx="250" cy="40" r="1"/><circle cx="90" cy="14" r="1"/></g><g fill="#D97706"><path d="M70 82 L70 52 Q70 32 110 24 Q150 32 150 52 L150 82 Z"/><circle cx="85" cy="48" r="7"/><circle cx="135" cy="48" r="7"/><rect x="52" y="38" width="7" height="44"/><rect x="161" y="38" width="7" height="44"/><rect x="50" y="38" width="11" height="4"/><rect x="159" y="38" width="11" height="4"/><rect x="48" y="82" width="124" height="6"/><rect x="109" y="15" width="2" height="10"/><circle cx="110" cy="14" r="2.5"/></g><g fill="#F97316" opacity="0.22"><circle cx="200" cy="52" r="13"/><circle cx="245" cy="52" r="13"/><circle cx="290" cy="52" r="13"/></g><g fill="#F8FAFC"><rect x="194" y="60" width="12" height="28"/><rect x="239" y="60" width="12" height="28"/><rect x="284" y="60" width="12" height="28"/></g><g fill="#F97316"><path d="M200 60 Q193 50 200 44 Q207 50 200 60 Z"/><path d="M245 60 Q238 50 245 44 Q252 50 245 60 Z"/><path d="M290 60 Q283 50 290 44 Q297 50 290 60 Z"/></g><g fill="#FDE047"><path d="M200 58 Q197 52 200 49 Q203 52 200 58 Z"/><path d="M245 58 Q242 52 245 49 Q248 52 245 58 Z"/><path d="M290 58 Q287 52 290 49 Q293 52 290 58 Z"/></g></svg>
+      <div class="kick"><span>MUMBAI &middot; 26/11</span><span class="lbl CONFIRMED">CONFIRMED</span></div>
+      <h2>India marks 18 years since 26/11 Mumbai attacks</h2>
+      <div class="why"><b>WHY IT MATTERS:</b> 166 killed in 2008; the city remembers.</div>
+      <div class="sum">Tributes in Mumbai on the 18th anniversary of the 2008 attacks that killed 166 people.</div>
+      <div class="src">THE HINDU</div>
     </div>
     <div class="top">
-      <img src="photos/kyiv.jpg" alt="Damaged building in Kyiv">
-      <div class="kick"><span>KYIV &middot; UKRAINE</span><span class="lbl CONFIRMED">CONFIRMED</span></div>
-      <h2>Russia&rsquo;s missiles pound Kyiv overnight</h2>
-      <div class="why"><b>WHY IT MATTERS:</b> The heaviest night strike in weeks.</div>
-      <div class="sum">Ballistic missiles wound seven in the capital; grain ships are also hit near Odesa.</div>
-      <div class="src">REUTERS</div>
+      <svg viewBox="0 0 320 98"><rect width="320" height="98" fill="#EDE8DC"/><g><rect x="16" y="7" width="84" height="84" fill="#F8FAFC" stroke="#111" stroke-width="1.5"/><g fill="#111"><rect x="37" y="7" width="21" height="21"/><rect x="79" y="7" width="21" height="21"/><rect x="16" y="28" width="21" height="21"/><rect x="58" y="28" width="21" height="21"/><rect x="37" y="49" width="21" height="21"/><rect x="79" y="49" width="21" height="21"/><rect x="16" y="70" width="21" height="21"/><rect x="58" y="70" width="21" height="21"/></g><g fill="#fff" stroke="#111" stroke-width="1"><circle cx="26" cy="80" r="5"/><path d="M19 88 L33 88 L31 82 L21 82 Z"/></g><g fill="#111"><circle cx="89" cy="17" r="4"/><path d="M83 24 L95 24 L93 19 L85 19 Z"/></g></g><text x="168" y="56" text-anchor="middle" font-size="22" font-weight="bold" fill="#0B2545" font-family="Arial">1.5&ndash;1.5</text><g><circle cx="252" cy="49" r="30" fill="#fff" stroke="#0B2545" stroke-width="4"/><g fill="#0B2545"><circle cx="252" cy="23" r="1.5"/><circle cx="252" cy="75" r="1.5"/><circle cx="226" cy="49" r="1.5"/><circle cx="278" cy="49" r="1.5"/></g><line x1="252" y1="49" x2="252" y2="29" stroke="#0B2545" stroke-width="3"/><line x1="252" y1="49" x2="267" y2="55" stroke="#C8102E" stroke-width="3"/><circle cx="252" cy="49" r="2.5" fill="#C8102E"/></g></svg>
+      <div class="kick"><span>GENEVA &middot; CHESS</span><span class="lbl CONFIRMED">CONFIRMED</span></div>
+      <h2>Gukesh&ndash;Sindarov Game 3 ends in 60-move draw</h2>
+      <div class="why"><b>WHY IT MATTERS:</b> Three draws; the match is dead level.</div>
+      <div class="sum">Game 3 in Geneva ends level after 60 moves; the match is tied 1.5&ndash;1.5, Game 4 on Saturday.</div>
+      <div class="src">FIDE</div>
     </div>
   </div>
   <div class="sec">MORE FROM AROUND THE WORLD</div>
   <div class="grid">
+    <div class="card">
+      <svg viewBox="0 0 190 44"><rect width="190" height="44" fill="#0B2545"/><text x="14" y="33" font-size="26" font-weight="bold" fill="#FFD23F" font-family="Arial">%</text><g fill="#F59E0B"><rect x="48" y="28" width="14" height="12"/><rect x="68" y="22" width="14" height="18"/><rect x="88" y="16" width="14" height="24"/></g><polyline points="48,26 68,20 88,14 108,8" stroke="#FF5A5A" stroke-width="2.5" fill="none"/><polygon points="108,8 100,9 108,15" fill="#FF5A5A"/><rect x="118" y="10" width="60" height="16" rx="3" fill="#C8102E"/><text x="148" y="21.5" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff" font-family="Arial">15&ndash;25%</text></svg>
+      <div class="ck"><span class="k">WASHINGTON &middot; TRADE</span><span class="lbl OFFICIAL">OFFICIAL</span></div>
+      <h3>Trump unveils tariffs on 14 partners</h3>
+      <div class="cs">Section 301 duties of 15&ndash;25% proposed.</div>
+      <div class="csrc">USTR &middot; REUTERS</div>
+    </div>
+    <div class="card">
+      <svg viewBox="0 0 190 44"><rect width="190" height="44" fill="#1E293B"/><g fill="#0F172A"><rect x="8" y="18" width="16" height="26"/><rect x="28" y="10" width="14" height="34"/><rect x="46" y="20" width="18" height="24"/><rect x="68" y="14" width="15" height="30"/><rect x="150" y="16" width="16" height="28"/><rect x="170" y="22" width="14" height="22"/></g><g fill="#F97316"><polygon points="118,4 121,12 129,12 123,17 125,25 118,20 111,25 113,17 107,12 115,12"/><circle cx="118" cy="14" r="3" fill="#FDE68A"/></g><g fill="#94A3B8" opacity="0.85"><circle cx="100" cy="8" r="4"/><circle cx="136" cy="6" r="3"/><circle cx="88" cy="14" r="3"/></g><path d="M95 38 Q118 30 140 38" stroke="#F97316" stroke-width="1.5" fill="none" stroke-dasharray="3 2" opacity="0.7"/></svg>
+      <div class="ck"><span class="k">KYIV &middot; UKRAINE</span><span class="lbl CONFIRMED">CONFIRMED</span></div>
+      <h3>Russia&rsquo;s missiles pound Kyiv overnight</h3>
+      <div class="cs">Ballistic missiles wound seven in the capital.</div>
+      <div class="csrc">REUTERS</div>
+    </div>
     <div class="card">
       <svg viewBox="0 0 190 44"><rect width="190" height="44" fill="#1E293B"/><g stroke="#94A3B8" stroke-width="2" fill="none"><path d="M28 40 L28 24"/><path d="M16 30 A14 14 0 0 1 40 30"/><path d="M28 24 L16 30"/><path d="M28 24 L40 30"/></g><circle cx="28" cy="24" r="2.5" fill="#CBD5E1"/><g fill="#E2E8F0"><rect x="118" y="19" width="26" height="6" rx="3"/><circle cx="114" cy="16" r="3" fill="#94A3B8"/><circle cx="148" cy="16" r="3" fill="#94A3B8"/><circle cx="114" cy="28" r="3" fill="#94A3B8"/><circle cx="148" cy="28" r="3" fill="#94A3B8"/></g><g stroke="#94A3B8" stroke-width="1.5"><line x1="114" y1="17" x2="120" y2="21"/><line x1="148" y1="17" x2="142" y2="21"/><line x1="114" y1="27" x2="120" y2="23"/><line x1="148" y1="27" x2="142" y2="23"/></g><polygon points="168,6 172,15 181,15 174,21 177,30 168,24 159,30 162,21 155,15 164,15" fill="#F97316"/><circle cx="168" cy="18" r="3" fill="#FDE68A"/></svg>
       <div class="ck"><span class="k">KUWAIT &middot; GULF</span><span class="lbl REPORTED">REPORTED</span></div>
@@ -154,7 +170,7 @@
     <div class="card">
       <svg viewBox="0 0 190 44"><rect width="190" height="44" fill="#1E3A8A"/><defs><path id="st" d="M0,-5 L1.5,-1.6 L5,-1.6 L2.2,0.9 L3.2,4.3 L0,2.3 L-3.2,4.3 L-2.2,0.9 L-5,-1.6 L-1.5,-1.6 Z"/></defs><g fill="#FFD23F"><use href="#st" x="109" y="22"/><use href="#st" x="107.1" y="29"/><use href="#st" x="102" y="34.1"/><use href="#st" x="95" y="36"/><use href="#st" x="88" y="34.1"/><use href="#st" x="82.9" y="29"/><use href="#st" x="81" y="22"/><use href="#st" x="82.9" y="15"/><use href="#st" x="88" y="9.9"/><use href="#st" x="95" y="8"/><use href="#st" x="102" y="9.9"/><use href="#st" x="107.1" y="15"/></g></svg>
       <div class="ck"><span class="k">BRUSSELS &middot; SUMMIT</span><span class="lbl OFFICIAL">OFFICIAL</span> <span class="lbl ONGOING">ONGOING</span></div>
-      <h3>EU leaders meet on budget and Ukraine aid</h3>
+      <h3>EU summit on budget and Ukraine aid</h3>
       <div class="cs">Two-day summit on budget and Ukraine aid.</div>
       <div class="csrc">COUNCIL OF THE EU</div>
     </div>
@@ -166,18 +182,11 @@
       <div class="csrc">BANK OF KOREA</div>
     </div>
     <div class="card">
-      <svg viewBox="0 0 190 44"><rect width="190" height="44" fill="#E2E8F0"/><g fill="#111"><rect x="60" y="2" width="10" height="10"/><rect x="80" y="2" width="10" height="10"/><rect x="70" y="12" width="10" height="10"/><rect x="90" y="12" width="10" height="10"/><rect x="60" y="22" width="10" height="10"/><rect x="80" y="22" width="10" height="10"/><rect x="70" y="32" width="10" height="10"/><rect x="90" y="32" width="10" height="10"/></g><rect x="60" y="2" width="40" height="40" fill="none" stroke="#111" stroke-width="1.5"/><g fill="#fff" stroke="#111" stroke-width="0.5"><circle cx="65" cy="7" r="3"/><path d="M60.5 15 L69.5 15 L68 10 L62 10 Z"/></g><g fill="#111"><circle cx="95" cy="17" r="3"/><path d="M90.5 25 L99.5 25 L98 20 L92 20 Z"/></g></svg>
-      <div class="ck"><span class="k">GENEVA &middot; CHESS</span><span class="lbl CONFIRMED">CONFIRMED</span> <span class="lbl SCHEDULED">SCHEDULED TODAY</span></div>
-      <h3>Gukesh meets Sindarov in Game 3</h3>
-      <div class="cs">Title match level at 1&ndash;1 after two draws.</div>
-      <div class="csrc">FIDE</div>
-    </div>
-    <div class="card">
       <svg viewBox="0 0 190 44"><rect width="190" height="44" fill="#F1F5F9"/><rect x="8" y="5" width="17" height="34" fill="#CE1126"/><rect x="25" y="5" width="40" height="17" fill="#FCD116"/><rect x="25" y="22" width="40" height="17" fill="#009E60"/><polygon points="16.5,13 17.9,17.2 22.3,17.2 18.7,20 20,24.2 16.5,21.6 13,24.2 14.3,20 10.7,17.2 15.1,17.2" fill="#111"/><g fill="#475569"><rect x="82" y="16" width="96" height="23"/><polygon points="78,16 182,16 130,6" fill="#334155"/></g><g fill="#E2E8F0"><rect x="90" y="22" width="8" height="10"/><rect x="106" y="22" width="8" height="10"/><rect x="122" y="22" width="8" height="10"/><rect x="138" y="22" width="8" height="10"/><rect x="154" y="22" width="8" height="10"/></g></svg>
-      <div class="ck"><span class="k">GUINEA-BISSAU &middot; COUP</span><span class="lbl CONFIRMED">CONFIRMED</span></div>
-      <h3>Army seizes power in Guinea-Bissau</h3>
-      <div class="cs">Embalo detained, elections suspended.</div>
-      <div class="csrc">AFP</div>
+      <div class="ck"><span class="k">GUINEA-BISSAU &middot; VOTE</span><span class="lbl REPORTED">REPORTED</span></div>
+      <h3>Guinea-Bissau vote delayed to 2028</h3>
+      <div class="cs">December election scrapped a year after the 2025 coup.</div>
+      <div class="csrc">REUTERS</div>
     </div>
     <div class="card">
       <svg viewBox="0 0 190 44"><rect width="190" height="44" fill="#0F172A"/><g fill="#fff"><circle cx="12" cy="8" r="1.2"/><circle cx="30" cy="18" r="1"/><circle cx="170" cy="10" r="1.2"/><circle cx="150" cy="6" r="1"/><circle cx="60" cy="6" r="1"/><circle cx="182" cy="24" r="1"/></g><path d="M60 22 L48 26 L60 30 Z" fill="#F97316"/><rect x="60" y="18" width="52" height="12" rx="6" fill="#F8FAFC"/><rect x="112" y="20" width="22" height="8" fill="#2563EB"/><rect x="134" y="20" width="22" height="8" fill="#2563EB"/><circle cx="66" cy="24" r="3" fill="#94A3B8"/><ellipse cx="95" cy="48" rx="120" ry="10" fill="#2563EB"/></svg>
@@ -185,13 +194,6 @@
       <h3>Shenzhou-24 docks with first Pakistani astronaut aboard</h3>
       <div class="cs">First Pakistani in orbit aboard Tiangong.</div>
       <div class="csrc">XINHUA &middot; DAWN</div>
-    </div>
-    <div class="card">
-      <svg viewBox="0 0 190 44"><rect width="190" height="44" fill="#FDE68A"/><rect y="36" width="190" height="8" fill="#78350F"/><g fill="#451A03"><rect x="14" y="20" width="12" height="16"/><rect x="32" y="14" width="9" height="22"/><rect x="48" y="22" width="16" height="14"/><rect x="70" y="12" width="8" height="24"/></g><path d="M74 12 L64 26 L84 26 Z" fill="#EA580C"/><path d="M74 17 L69 26 L79 26 Z" fill="#FDE047"/><rect x="100" y="26" width="28" height="10" rx="5" fill="#92400E"/><rect x="134" y="26" width="28" height="10" rx="5" fill="#92400E"/><g fill="#1F2937" opacity="0.9"><circle cx="36" cy="8" r="4.5"/><circle cx="44" cy="4" r="3.5"/><circle cx="74" cy="5" r="3"/></g></svg>
-      <div class="ck"><span class="k">BANGKOK &middot; THAILAND</span><span class="lbl CONFIRMED">CONFIRMED</span></div>
-      <h3>Blast hits Bangkok refinery</h3>
-      <div class="cs">Nine injured as all refinery units shut.</div>
-      <div class="csrc">REUTERS</div>
     </div>
   </div>
   <div class="sec">WHERE IT HAPPENED &middot; 13 STORIES ON THE MAP</div>
@@ -206,6 +208,12 @@
       <rect x="0" y="0" width="1020" height="156" fill="#FDFBF7"/>
       <ellipse cx="510" cy="78" rx="500" ry="74" fill="url(#glow)"/>
       <ellipse cx="510" cy="78" rx="505" ry="76" fill="none" stroke="#E3DCCB" stroke-width="1" stroke-dasharray="3 4"/>
+      <ellipse cx="150" cy="45" rx="130" ry="35" fill="#DBEAFE"/>
+      <ellipse cx="250" cy="110" rx="40" ry="28" fill="#FCE7F3"/>
+      <ellipse cx="520" cy="40" rx="60" ry="25" fill="#FEF3C7"/>
+      <ellipse cx="570" cy="95" rx="55" ry="35" fill="#FDE68A"/>
+      <ellipse cx="780" cy="55" rx="160" ry="45" fill="#DCFCE7"/>
+      <ellipse cx="905" cy="135" rx="38" ry="16" fill="#CFFAFE"/>
     </svg>
   </div>
   <script>
@@ -218,66 +226,60 @@
     for (var r=0;r<rows;r++){ for (var c=0;c<cols;c++){
       var inside=false;
       for (var i=0;i<blobs.length;i++){ var b=blobs[i]; var dx=(c-b[0])/b[2], dy=(r-b[1])/b[3]; if (dx*dx+dy*dy<=1){ inside=true; break; } }
-      if (inside){ var dot=document.createElementNS(NS,'circle'); dot.setAttribute('cx', c*cell+6); dot.setAttribute('cy', r*cell+6); dot.setAttribute('r', 2.4); dot.setAttribute('fill','#D9D2C4'); g.appendChild(dot); }
+      if (inside){ var dot=document.createElementNS(NS,'circle'); dot.setAttribute('cx', c*cell+6); dot.setAttribute('cy', r*cell+6); dot.setAttribute('r', 2.8); dot.setAttribute('fill','#B9B2A2'); g.appendChild(dot); }
     }}
     svg.appendChild(g);
     function arc(x1,y1,x2,y2,up){ var mx=(x1+x2)/2, my=Math.min(y1,y2)-up; var p=document.createElementNS(NS,'path'); p.setAttribute('d','M'+x1+' '+y1+' Q'+mx+' '+my+' '+x2+' '+y2); p.setAttribute('fill','none'); p.setAttribute('stroke','#C8102E'); p.setAttribute('stroke-width','1.4'); p.setAttribute('stroke-dasharray','4 3'); p.setAttribute('opacity','0.65'); svg.appendChild(p); }
-    arc(26*12+6, 3.2*12+6, 50*12+6, 2.9*12+6, 26);
+    arc(26*12+6, 3.2*12+6, 62*12+6, 5.3*12+6, 26);
     arc(73*12+6, 3.8*12+6, 42*12+6, 4.2*12+6, 30);
-    arc(72*12+6, 3.7*12+6, 73*12+6, 3.8*12+6, 6);
-    var pins=[[26,3.2,'#2563EB','1'],[22,5,'#2563EB','2'],[50,2.9,'#0D9488','3'],[54,4.4,'#DC2626','4'],[48,6.7,'#16A34A','5'],[52,6.2,'#DC2626','6'],[49.5,5,'#DC2626','7'],[45.5,2.2,'#0D9488','8'],[73,3.8,'#EA580C','9'],[42,4.2,'#0D9488','10'],[39,5.6,'#16A34A','11'],[66,3.5,'#EA580C','12'],[66,5.5,'#EA580C','13']];
+    arc(66*12+6, 3.5*12+6, 50*12+6, 2.9*12+6, 6);
+    var pins=[[26,3.2,'#2563EB','1'],[62,5.3,'#D97706','2'],[42,4.2,'#0D9488','3'],[22,5,'#2563EB','4'],[50,2.9,'#0D9488','5'],[54,4.4,'#DC2626','6'],[48,6.7,'#16A34A','7'],[52,6.2,'#DC2626','8'],[49.5,5,'#DC2626','9'],[45.5,2.2,'#0D9488','10'],[73,3.8,'#EA580C','11'],[39,5.6,'#16A34A','12'],[66,3.5,'#EA580C','13']];
     pins.forEach(function(pn){
       var x=pn[0]*12+6, y=pn[1]*12+6;
-      var halo=document.createElementNS(NS,'circle'); halo.setAttribute('cx',x); halo.setAttribute('cy',y); halo.setAttribute('r',11); halo.setAttribute('fill',pn[2]); halo.setAttribute('opacity','0.22'); svg.appendChild(halo);
-      var c=document.createElementNS(NS,'circle'); c.setAttribute('cx',x); c.setAttribute('cy',y); c.setAttribute('r',7); c.setAttribute('fill',pn[2]); c.setAttribute('stroke','#fff'); c.setAttribute('stroke-width','1.2'); svg.appendChild(c);
-      var t=document.createElementNS(NS,'text'); t.setAttribute('x',x); t.setAttribute('y',y+3); t.setAttribute('text-anchor','middle'); t.setAttribute('font-size','8'); t.setAttribute('font-weight','bold'); t.setAttribute('fill','#fff'); t.textContent=pn[3]; svg.appendChild(t);
+      var halo=document.createElementNS(NS,'circle'); halo.setAttribute('cx',x); halo.setAttribute('cy',y); halo.setAttribute('r',15); halo.setAttribute('fill',pn[2]); halo.setAttribute('opacity','0.22'); svg.appendChild(halo);
+      var c=document.createElementNS(NS,'circle'); c.setAttribute('cx',x); c.setAttribute('cy',y); c.setAttribute('r',10); c.setAttribute('fill',pn[2]); c.setAttribute('stroke','#fff'); c.setAttribute('stroke-width','1.2'); svg.appendChild(c);
+      var t=document.createElementNS(NS,'text'); t.setAttribute('x',x); t.setAttribute('y',y+4); t.setAttribute('text-anchor','middle'); t.setAttribute('font-size','11'); t.setAttribute('font-weight','bold'); t.setAttribute('fill','#fff'); t.textContent=pn[3]; svg.appendChild(t);
     });
   })();
   </script>
-  <div class="sec">ALSO TODAY &middot; 34 MORE STORIES</div>
+  <div class="sec">ALSO TODAY &middot; 28 MORE STORIES</div>
   <div class="also">
     <div class="acol">
-      <div class="ai"><span class="an" style="color:#0D9488">14</span> <span class="ak">UK</span> &mdash; Britain calls up 100,000 veterans in biggest drive since the Cold War</div>
-      <div class="ai"><span class="an" style="color:#DC2626">15</span> <span class="ak">IRAQ</span> &mdash; Eight French nationals jailed for life over Islamic State</div>
-      <div class="ai"><span class="an" style="color:#2563EB">16</span> <span class="ak">BUSINESS</span> &mdash; Kroger to cut 3,000 corporate jobs</div>
-      <div class="ai"><span class="an" style="color:#2563EB">17</span> <span class="ak">USA</span> &mdash; Nearly 300,000 customers lose power in the US</div>
-      <div class="ai"><span class="an" style="color:#D97706">18</span> <span class="ak">BANGLADESH</span> &mdash; Hasina&rsquo;s ex-press aide arrested in Bangladesh</div>
-      <div class="ai"><span class="an" style="color:#D97706">19</span> <span class="ak">AFGHANISTAN</span> &mdash; Taliban replaces women&rsquo;s names with &lsquo;Bibi&rsquo; in Balkh</div>
-      <div class="ai"><span class="an" style="color:#EA580C">20</span> <span class="ak">MARKETS</span> &mdash; Asian stocks bounce back &mdash; Kospi +2%, Nikkei +1.8%</div>
-      <div class="ai"><span class="an" style="color:#0891B2">21</span> <span class="ak">AUSTRALIA</span> &mdash; Virgin Australia staff strike at 4 airports</div>
-      <div class="ai"><span class="an" style="color:#0D9488">22</span> <span class="ak">FRANCE</span> &mdash; Students march in Paris from 14:00 <span class="tg">SCHEDULED TODAY</span></div>
-      <div class="ai"><span class="an" style="color:#D97706">23</span> <span class="ak">INDIA/NEPAL</span> &mdash; &#8377;15,000 crore aid for Nepal</div>
-      <div class="ai"><span class="an" style="color:#7C3AED">24</span> <span class="ak">TRADE</span> &mdash; Chips and rare earths keep US-China truce fragile</div>
-      <div class="ai"><span class="an" style="color:#7C3AED">25</span> <span class="ak">CLIMATE</span> &mdash; OPEC blames EU for COP31 collapse</div>
+      <div class="ai"><span class="an" style="color:#0D9488">14</span> <span class="ak">UK</span> &mdash; 100,000 veterans contacted, first since Cold War <span class="asrc">(THE TELEGRAPH)</span></div>
+      <div class="ai"><span class="an" style="color:#DC2626">15</span> <span class="ak">IRAQ</span> &mdash; Eight French nationals jailed for life over Islamic State <span class="asrc">(AFP)</span></div>
+      <div class="ai"><span class="an" style="color:#2563EB">16</span> <span class="ak">BUSINESS</span> &mdash; Kroger to cut 3,000 corporate jobs <span class="asrc">(BLOOMBERG)</span></div>
+      <div class="ai"><span class="an" style="color:#2563EB">17</span> <span class="ak">USA</span> &mdash; Thanksgiving storm cuts power to nearly 1m in US <span class="asrc">(REUTERS)</span></div>
+      <div class="ai"><span class="an" style="color:#D97706">18</span> <span class="ak">BANGLADESH</span> &mdash; Hasina&rsquo;s ex-press aide arrested in Bangladesh <span class="asrc">(BSS)</span></div>
+      <div class="ai"><span class="an" style="color:#EA580C">19</span> <span class="ak">MARKETS</span> &mdash; Asia stocks up: Kospi +2%, Nikkei +1.8% <span class="asrc">(BLOOMBERG)</span></div>
+      <div class="ai"><span class="an" style="color:#0891B2">20</span> <span class="ak">AUSTRALIA</span> &mdash; Virgin Australia staff strike at 4 airports <span class="asrc">(KARRYON)</span></div>
+      <div class="ai"><span class="an" style="color:#0D9488">21</span> <span class="ak">FRANCE</span> &mdash; Students march in Paris from 14:00 <span class="asrc">(FRANCEINFO)</span></div>
+      <div class="ai"><span class="an" style="color:#7C3AED">22</span> <span class="ak">TRADE</span> &mdash; Chips and rare earths keep US-China truce fragile <span class="asrc">(REUTERS)</span></div>
+      <div class="ai"><span class="an" style="color:#7C3AED">23</span> <span class="ak">CLIMATE</span> &mdash; OPEC blames EU for COP31 collapse <span class="asrc">(REUTERS)</span></div>
     </div>
     <div class="acol">
-      <div class="ai"><span class="an" style="color:#2563EB">26</span> <span class="ak">TECH</span> &mdash; US officials split over China spying claims</div>
-      <div class="ai"><span class="an" style="color:#D97706">27</span> <span class="ak">PAKISTAN</span> &mdash; Pakistan unveils Chinese &lsquo;trackless tram&rsquo; in Lahore</div>
-      <div class="ai"><span class="an" style="color:#D97706">28</span> <span class="ak">INDIA</span> &mdash; India marks 18 years since the 26/11 Mumbai attacks</div>
-      <div class="ai"><span class="an" style="color:#7C3AED">29</span> <span class="ak">TECH</span> &mdash; Memory-chip shortage triples some RAM prices</div>
-      <div class="ai"><span class="an" style="color:#2563EB">30</span> <span class="ak">USA</span> &mdash; New York bans AI chatbots posing as human to children</div>
-      <div class="ai"><span class="an" style="color:#2563EB">31</span> <span class="ak">TECH</span> &mdash; 40-plus states challenge Character.AI data auction</div>
-      <div class="ai"><span class="an" style="color:#2563EB">32</span> <span class="ak">CYBER</span> &mdash; Salt Typhoon hackers now use AI tool, Microsoft says</div>
-      <div class="ai"><span class="an" style="color:#0D9488">33</span> <span class="ak">EUROPE</span> &mdash; EU confirms data theft in EU Academy breach</div>
-      <div class="ai"><span class="an" style="color:#16A34A">34</span> <span class="ak">EGYPT</span> &mdash; Fire above Giza tunnel kills 30 in Egypt</div>
-      <div class="ai"><span class="an" style="color:#16A34A">35</span> <span class="ak">SUDAN</span> &mdash; Sudan&rsquo;s RSF kills 19 in Blue Nile drone attacks</div>
-      <div class="ai"><span class="an" style="color:#EA580C">36</span> <span class="ak">INDONESIA</span> &mdash; Flooded gold mine traps miners in Bogor</div>
+      <div class="ai"><span class="an" style="color:#D97706">24</span> <span class="ak">PAKISTAN</span> &mdash; Chinese &lsquo;trackless tram&rsquo; debuts, Lahore <span class="asrc">(ECONOMIC TIMES)</span></div>
+      <div class="ai"><span class="an" style="color:#EA580C">25</span> <span class="ak">BANGKOK</span> &mdash; Blast hits Bangkok refinery <span class="asrc">(REUTERS)</span></div>
+      <div class="ai"><span class="an" style="color:#2563EB">26</span> <span class="ak">USA</span> &mdash; New York bans AI chatbot toys for five years <span class="asrc">(ENGADGET)</span></div>
+      <div class="ai"><span class="an" style="color:#2563EB">27</span> <span class="ak">CYBER</span> &mdash; Salt Typhoon hackers now use AI tool <span class="asrc">(MICROSOFT)</span></div>
+      <div class="ai"><span class="an" style="color:#16A34A">28</span> <span class="ak">EGYPT</span> &mdash; Giza tanker fire toll rises to 31 <span class="asrc">(AL JAZEERA)</span></div>
+      <div class="ai"><span class="an" style="color:#16A34A">29</span> <span class="ak">SUDAN</span> &mdash; Sudan&rsquo;s RSF kills 19 in Blue Nile drone attacks <span class="asrc">(REUTERS)</span></div>
+      <div class="ai"><span class="an" style="color:#EA580C">30</span> <span class="ak">INDONESIA</span> &mdash; Bogor mine toll reaches 13; 13 still missing <span class="asrc">(CNA)</span></div>
+      <div class="ai"><span class="an" style="color:#EA580C">31</span> <span class="ak">ASIA</span> &mdash; North Korea orders Swiss diplomatic office closed <span class="asrc">(AL JAZEERA)</span></div>
+      <div class="ai"><span class="an" style="color:#16A34A">32</span> <span class="ak">SOUTH AFRICA</span> &mdash; Court rules Ramaphosa report unlawful <span class="asrc">(REUTERS)</span></div>
     </div>
     <div class="acol">
-      <div class="ai"><span class="an" style="color:#EA580C">37</span> <span class="ak">ASIA</span> &mdash; North Korea orders Swiss diplomatic office closed</div>
-      <div class="ai"><span class="an" style="color:#16A34A">38</span> <span class="ak">SOUTH AFRICA</span> &mdash; South African court rules Ramaphosa report unlawful</div>
-      <div class="ai"><span class="an" style="color:#D97706">39</span> <span class="ak">BANGLADESH</span> &mdash; Garment pay floor up 36%</div>
-      <div class="ai"><span class="an" style="color:#EA580C">40</span> <span class="ak">ASIA</span> &mdash; Kim vows to expand nuclear arsenal <span class="tg claim">CLAIM</span></div>
-      <div class="ai"><span class="an" style="color:#2563EB">41</span> <span class="ak">USA</span> &mdash; Federal court blocks Trump&rsquo;s birthright citizenship order</div>
-      <div class="ai"><span class="an" style="color:#2563EB">42</span> <span class="ak">AVIATION</span> &mdash; FedEx plane overruns runway at Miami airport</div>
-      <div class="ai"><span class="an" style="color:#EA580C">43</span> <span class="ak">TECH</span> &mdash; Nvidia halts AI server shipments to four Asian states</div>
-      <div class="ai"><span class="an" style="color:#0D9488">44</span> <span class="ak">EUROPE</span> &mdash; De Cos backed to lead the ECB</div>
-      <div class="ai"><span class="an" style="color:#0D9488">45</span> <span class="ak">UK</span> &mdash; London Tube strike halts lines <span class="tg">SCHEDULED TODAY</span></div>
-      <div class="ai"><span class="an" style="color:#0891B2">46</span> <span class="ak">AUSTRALIA</span> &mdash; Australia&rsquo;s AI capex jumps 12%</div>
-      <div class="ai"><span class="an" style="color:#DB2777">47</span> <span class="ak">SOUTH AMERICA</span> &mdash; Lula sounds out banker as finance chief</div>
+      <div class="ai"><span class="an" style="color:#D97706">33</span> <span class="ak">BANGLADESH</span> &mdash; Garment pay floor up 36% <span class="asrc">(AL JAZEERA)</span></div>
+      <div class="ai"><span class="an" style="color:#EA580C">34</span> <span class="ak">ASIA</span> &mdash; Kim vows to expand nuclear arsenal <span class="tg claim">CLAIM</span> <span class="asrc">(KCNA &middot; YONHAP)</span></div>
+      <div class="ai"><span class="an" style="color:#2563EB">35</span> <span class="ak">USA</span> &mdash; Court blocks Trump&rsquo;s birthright citizenship order <span class="asrc">(AL JAZEERA)</span></div>
+      <div class="ai"><span class="an" style="color:#2563EB">36</span> <span class="ak">AVIATION</span> &mdash; FedEx plane overruns runway at Miami airport <span class="asrc">(AP)</span></div>
+      <div class="ai"><span class="an" style="color:#EA580C">37</span> <span class="ak">TECH</span> &mdash; Nvidia halts AI server shipments to four Asian states <span class="asrc">(FT)</span></div>
+      <div class="ai"><span class="an" style="color:#0D9488">38</span> <span class="ak">EUROPE</span> &mdash; De Cos backed to lead the ECB <span class="asrc">(REUTERS)</span></div>
+      <div class="ai"><span class="an" style="color:#0D9488">39</span> <span class="ak">UK</span> &mdash; London Tube strike halts lines <span class="tg">SCHEDULED TODAY</span> <span class="asrc">(TFL)</span></div>
+      <div class="ai"><span class="an" style="color:#0891B2">40</span> <span class="ak">AUSTRALIA</span> &mdash; Australia&rsquo;s AI capex jumps 12% <span class="asrc">(ABS)</span></div>
+      <div class="ai"><span class="an" style="color:#DB2777">41</span> <span class="ak">SOUTH AMERICA</span> &mdash; Lula sounds out banker as finance chief <span class="asrc">(REUTERS)</span></div>
     </div>
   </div>
-  <div class="dc"><b>DATE CHECK</b> &mdash; First reported 25 Nov, not repeated here: Cairo tanker fire &middot; Huawei verdict.</div>
+  <div class="dc"><b>DATE CHECK</b> &mdash; First reported before 26 Nov, not counted as today&rsquo;s news: Huawei verdict &middot; Nvidia reinstates Jensen Huang (23 Nov) &middot; COP31 ends without pact (22 Nov) &middot; Belgium strike grounds flights (23 Nov) &middot; US shelves Russia peace plan (25 Nov) &middot; Real Madrid 5-1 PSV (24 Nov).<br><b>NOT YET</b> &mdash; Macy&rsquo;s parade (Sat 28 Nov) &middot; Spain votes (Sun 29 Nov) &middot; Serbia votes (27 Dec) &middot; De Cos takes over ECB (Feb 2027).</div>
   <div class="how"><b>HOW SURE?</b> &nbsp;<b style="color:#15803D">OFFICIAL</b> = an authority&rsquo;s own word &nbsp;&middot;&nbsp; <b style="color:#1D4ED8">CONFIRMED</b> = two or more major outlets &nbsp;&middot;&nbsp; <b style="color:#B45309">REPORTED</b> = one outlet so far &nbsp;&middot;&nbsp; <b style="color:#DC2626">CLAIM</b> = one side&rsquo;s account, unverified &nbsp;&middot;&nbsp; <b style="color:#7C3AED">ONGOING</b> = still happening &nbsp;&middot;&nbsp; <b style="color:#7C3AED">SCHEDULED TODAY</b> = due today</div>
-  <div class="foot">Sources: Reuters, AP, AFP, BBC, Al Jazeera, Yonhap, PTI, FIDE &mdash; as reported on 26 November 2026. Photos: Wikimedia Commons (public domain / CC BY / CC BY-SA). One image. 47 stories. The world, 26 November 2026.</div>
+  <div class="foot">Sources: Reuters, AP, AFP, BBC, Al Jazeera, Yonhap, FIDE, The Hindu, ABS, CNA, BSS, Engadget &mdash; reported 26 November 2026. Photo: Wikimedia Commons. One image. 41 stories. The world, 26 November 2026.</div>
 </div></body></html>
