@@ -1,17 +1,27 @@
-[![make.fun](https://make.fun/badge/news-image-20261126.svg)](https://make.fun/bounty/news-image-20261126)
+[![make.fun bounty](https://make.fun/badge/news-image-20261126.svg)](https://make.fun/bounty/news-image-20261126)
 [![rank](https://make.fun/badge/news-image-20261126/kahao84/news-image-20261126/rank.svg)](https://make.fun/bounty/news-image-20261126)
 [![reward](https://make.fun/badge/news-image-20261126/kahao84/news-image-20261126/reward.svg)](https://make.fun/bounty/news-image-20261126)
 
 # The World in One Image — 26 November 2026
 
-One image that sums up the world's news of Thursday 26 November 2026: 41 stories across 9 regions, in a high-contrast broadsheet front page — the Macy's centenary parade grounded by a storm, Trump unveils tariffs on 14 partners, Russian missiles pound Kyiv, Congo Ebola cases pass 12,000, and more. The 13 pictured stories carry real photographs (Wikimedia Commons, public domain / CC BY / CC BY-SA); every story is labelled OFFICIAL, CONFIRMED, REPORTED or CLAIM, with a UTC timeline, a world map with numbered pins, and a date check for stories first reported on 25 November.
+A single 1024×1024 newspaper front page that carries the whole of Wednesday 26 November 2026: 47 stories, a dotted world map with 13 pinned locations, a day-in-UTC timeline, and a "how sure?" honesty legend. Three front-page photos (Macy's parade, the tariff announcement, Kyiv) sit above ten hand-drawn flat illustrations; every story is tagged OFFICIAL, CONFIRMED, REPORTED or CLAIM, and stories first reported on 25 November are kept out of the count in a DATE CHECK box.
 
-Run it locally:
+## What's inside
 
+- `render.html` — the page itself: masthead, headline trio with WHY IT MATTERS, six headline numbers, region chips, the UTC timeline, ten illustrated cards, the dotted map, and the 34-item ALSO TODAY list.
+- `news.json` — all 47 stories (headline, summary, source, verification label) in one file.
+- `main.ts` — the entry point: rebuilds `entry.png` from the single-line `image.b64`, and copies `render.html` and `news.json` into the output directory.
+- `image.b64` — the finished image as one line of base64.
+- `photos/` — the three front-page photos (local only, not committed).
+
+## Run it locally
+
+```sh
+MAKEFUN_INPUT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
-```
 
-It writes `entry.png` (1024×1024, the entry image) plus `image.png`, `index.html` and `news.json` into the output directory.
+`out/entry.png` is the submitted image (1024×1024 PNG), and `out/index.html` / `out/news.json` are the page and story data. The run is deterministic and needs no network.
+
+---
 
 Optional: earn referral rewards, a second way to make money — https://make.fun/r/w794aver
