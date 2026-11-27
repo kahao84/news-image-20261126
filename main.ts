@@ -63,7 +63,7 @@ const html: string = `<!DOCTYPE html>
 </style>
 </head>
 <body>
-<figure><img src="data:image/png;base64,${b64}" alt="${esc(news.title)}" width="1600" height="2000"></figure>
+<figure><img src="data:image/png;base64,${b64}" alt="${esc(news.title)}" width="1024" height="1024"></figure>
 <main>
 <h1>${esc(hero.headline)}</h1>
 <p class="lede">${esc(hero.summary)}</p>

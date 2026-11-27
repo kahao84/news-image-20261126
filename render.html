@@ -7,74 +7,93 @@
   * { margin: 0; padding: 0; box-sizing: border-box; }
   html, body { background: #f7f3ea; }
   .page {
-    width: 1600px; height: 2000px;
+    width: 1024px; height: 1024px;
     background: #f7f3ea; color: #1c1a16;
     font-family: 'Liberation Serif', Georgia, 'Times New Roman', serif;
-    padding: 44px 64px 36px 64px;
+    padding: 26px 38px 20px 38px;
     overflow: hidden;
   }
   .topbar {
     display: flex; justify-content: space-between; align-items: baseline;
     font-family: 'Liberation Sans', Arial, sans-serif;
-    font-size: 21px; letter-spacing: 3px; font-weight: bold;
+    font-size: 15px; letter-spacing: 2px; font-weight: bold;
     color: #6b6455; text-transform: uppercase;
-    border-bottom: 3px solid #1c1a16; padding-bottom: 12px;
+    border-bottom: 2px solid #1c1a16; padding-bottom: 8px;
   }
   .topbar .date { color: #b3261e; }
   h1.masthead {
-    font-size: 74px; line-height: 1.04; font-weight: 900;
-    letter-spacing: -1px; text-align: center; margin: 20px 0 4px 0;
+    font-size: 46px; line-height: 1.04; font-weight: 900;
+    letter-spacing: -1px; text-align: center; margin: 12px 0 2px 0;
   }
   h1.masthead em { font-style: normal; color: #b3261e; }
   .subhead {
-    text-align: center; font-size: 24px; font-style: italic; color: #4a4436;
-    border-bottom: 1px solid #c9c0a8; padding-bottom: 14px; margin-bottom: 18px;
+    text-align: center; font-size: 16px; font-style: italic; color: #4a4436;
+    border-bottom: 1px solid #c9c0a8; padding-bottom: 10px; margin-bottom: 12px;
   }
-  .hero { border-bottom: 3px solid #1c1a16; padding-bottom: 18px; margin-bottom: 16px; }
+  .hero { border-bottom: 2px solid #1c1a16; padding-bottom: 12px; margin-bottom: 10px; }
   .kicker {
     display: inline-block; font-family: 'Liberation Sans', Arial, sans-serif;
-    font-size: 20px; font-weight: bold; letter-spacing: 4px; color: #fff;
-    background: #b3261e; padding: 6px 12px 5px 12px; text-transform: uppercase;
-    margin-bottom: 10px;
+    font-size: 13px; font-weight: bold; letter-spacing: 3px; color: #fff;
+    background: #b3261e; padding: 4px 9px 3px 9px; text-transform: uppercase;
+    margin-bottom: 6px;
   }
-  .hero h2 { font-size: 52px; line-height: 1.1; font-weight: 900; letter-spacing: -0.5px; margin-bottom: 8px; }
-  .hero p { font-size: 24px; line-height: 1.35; color: #33302a; }
-  .chips { margin-top: 12px; font-family: 'Liberation Sans', Arial, sans-serif; }
+  .hero h2 { font-size: 30px; line-height: 1.1; font-weight: 900; letter-spacing: -0.5px; margin-bottom: 5px; }
+  .hero p { font-size: 15px; line-height: 1.3; color: #33302a; }
+  .chips { margin-top: 8px; font-family: 'Liberation Sans', Arial, sans-serif; }
   .chips span {
-    display: inline-block; font-size: 20px; font-weight: bold; color: #1c1a16;
-    border: 2px solid #1c1a16; border-radius: 999px; padding: 5px 14px; margin-right: 12px;
+    display: inline-block; font-size: 13px; font-weight: bold; color: #1c1a16;
+    border: 2px solid #1c1a16; border-radius: 999px; padding: 3px 10px; margin-right: 8px;
   }
   .sectionhead {
     font-family: 'Liberation Sans', Arial, sans-serif;
-    font-size: 20px; font-weight: bold; letter-spacing: 4px; color: #b3261e;
-    text-transform: uppercase; margin-bottom: 4px;
+    font-size: 13px; font-weight: bold; letter-spacing: 3px; color: #b3261e;
+    text-transform: uppercase; margin-bottom: 2px;
   }
   .grid {
-    display: grid; grid-template-columns: 1fr 1fr 1fr; column-gap: 28px;
+    display: grid; grid-template-columns: 1fr 1fr 1fr; column-gap: 18px;
   }
-  .brief { padding: 12px 0 11px 0; border-bottom: 1px solid #c9c0a8; }
-  .brief .btop { display: flex; align-items: baseline; gap: 10px; margin-bottom: 3px; }
-  .brief .num {
-    font-size: 20px; font-weight: 900; color: #b3261e;
-  }
+  .brief { padding: 8px 0 7px 0; border-bottom: 1px solid #c9c0a8; }
+  .brief .btop { display: flex; align-items: baseline; gap: 8px; margin-bottom: 2px; }
+  .brief .num { font-size: 13px; font-weight: 900; color: #b3261e; }
   .brief .tag {
     font-family: 'Liberation Sans', Arial, sans-serif;
-    font-size: 15px; font-weight: bold; letter-spacing: 2.5px; color: #6b6455;
+    font-size: 10px; font-weight: bold; letter-spacing: 2px; color: #6b6455;
     text-transform: uppercase;
   }
-  .brief h4 { font-size: 20px; line-height: 1.22; font-weight: 900; margin-bottom: 3px; }
-  .brief p { font-size: 16px; line-height: 1.32; color: #33302a; }
+  .brief h4 {
+    font-size: 13.5px; line-height: 1.2; font-weight: 900; margin-bottom: 2px;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .brief p {
+    font-size: 11px; line-height: 1.3; color: #33302a;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .morelist {
+    display: grid; grid-template-columns: 1fr 1fr 1fr; column-gap: 18px;
+  }
+  .more {
+    font-size: 11px; line-height: 1.3; color: #33302a;
+    padding: 4px 0; border-bottom: 1px solid #ddd5c0;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .more .num { font-weight: 900; color: #b3261e; }
+  .more .tag {
+    font-family: 'Liberation Sans', Arial, sans-serif;
+    font-size: 9px; font-weight: bold; letter-spacing: 1.5px; color: #6b6455;
+    text-transform: uppercase;
+  }
   .datecheck {
-    margin-top: 16px; border: 2px solid #b3261e; background: #fbf6ea;
-    padding: 11px 16px; font-family: 'Liberation Sans', Arial, sans-serif;
-    font-size: 18px; line-height: 1.4; color: #33302a;
+    margin-top: 10px; border: 2px solid #b3261e; background: #fbf6ea;
+    padding: 8px 12px; font-family: 'Liberation Sans', Arial, sans-serif;
+    font-size: 12px; line-height: 1.4; color: #33302a;
   }
   .datecheck b { color: #b3261e; letter-spacing: 2px; }
   .footer {
-    margin-top: 16px; font-family: 'Liberation Sans', Arial, sans-serif;
-    font-size: 18px; line-height: 1.45; color: #6b6455;
+    margin-top: 10px; font-family: 'Liberation Sans', Arial, sans-serif;
+    font-size: 11.5px; line-height: 1.4; color: #6b6455;
   }
   .footer b { color: #1c1a16; }
+
 </style>
 </head>
 <body>
@@ -90,7 +109,7 @@
     <div class="chips"><span>Oil +1%</span><span>Jizan Port hit</span><span>No casualties</span></div>
   </div>
 
-  <div class="sectionhead">The day in brief &mdash; 30 more stories</div>
+  <div class="sectionhead">The day in brief &mdash; 12 more stories</div>
   <div class="grid">
     <div class="brief"><div class="btop"><span class="num">2</span><span class="tag">USA</span></div>
       <h4>100th Macy's Thanksgiving parade postponed by storm</h4>
@@ -128,60 +147,27 @@
     <div class="brief"><div class="btop"><span class="num">13</span><span class="tag">Afghanistan</span></div>
       <h4>Taliban replaces women's names with 'Bibi' in Balkh</h4>
       <p>Public records must swap women's names for 'Bibi', 'goat' or 'cow'.</p></div>
-    <div class="brief"><div class="btop"><span class="num">14</span><span class="tag">Trade</span></div>
-      <h4>Chips and rare earths keep US-China truce fragile</h4>
-      <p>Export controls on both sides strain the tariff pause.</p></div>
-    <div class="brief"><div class="btop"><span class="num">15</span><span class="tag">Tech</span></div>
-      <h4>Musk offers two SpaceX shares to every US child</h4>
-      <p>Elon Musk says each child in America will get a stake in SpaceX.</p></div>
-    <div class="brief"><div class="btop"><span class="num">16</span><span class="tag">Climate</span></div>
-      <h4>OPEC blames EU for COP31 collapse</h4>
-      <p>The oil cartel points at Brussels after climate talks fail.</p></div>
-    <div class="brief"><div class="btop"><span class="num">17</span><span class="tag">Tech</span></div>
-      <h4>US officials split over China spying claims</h4>
-      <p>Intelligence agencies disagree on Beijing's role in the Nvidia affair.</p></div>
-    <div class="brief"><div class="btop"><span class="num">18</span><span class="tag">Trade</span></div>
-      <h4>Trump tariffs aim to prise trade from China's grip</h4>
-      <p>Allies are pressed to shift supply chains away from Beijing.</p></div>
-    <div class="brief"><div class="btop"><span class="num">19</span><span class="tag">Pakistan</span></div>
-      <h4>Pakistan unveils Chinese 'trackless tram' in Lahore</h4>
-      <p>The new transit vehicle draws mockery online as a 'bus in vinyl'.</p></div>
-    <div class="brief"><div class="btop"><span class="num">20</span><span class="tag">India</span></div>
-      <h4>India marks 18 years since the 26/11 Mumbai attacks</h4>
-      <p>The US ambassador pays tribute to the 166 victims, including six Americans.</p></div>
-    <div class="brief"><div class="btop"><span class="num">21</span><span class="tag">Tech</span></div>
-      <h4>Memory-chip shortage triples some RAM prices</h4>
-      <p>PC buyers are squeezed as memory costs spike before Black Friday.</p></div>
-    <div class="brief"><div class="btop"><span class="num">22</span><span class="tag">Space</span></div>
-      <h4>FCC clears SpaceX 'Starmind' data-centre satellites</h4>
-      <p>The constellation will host computing in orbit.</p></div>
-    <div class="brief"><div class="btop"><span class="num">23</span><span class="tag">USA</span></div>
-      <h4>New York bans AI chatbots posing as human to children</h4>
-      <p>The state bars bots from pretending to be people in chats with minors.</p></div>
-    <div class="brief"><div class="btop"><span class="num">24</span><span class="tag">Tech</span></div>
-      <h4>40-plus states challenge Character.AI data auction</h4>
-      <p>Attorneys general oppose plans to sell users' chat data.</p></div>
-    <div class="brief"><div class="btop"><span class="num">25</span><span class="tag">Cyber</span></div>
-      <h4>Salt Typhoon hackers now use AI tool, Microsoft says</h4>
-      <p>Chinese and North Korean groups adopt the ARTEX AI tool for attacks.</p></div>
-    <div class="brief"><div class="btop"><span class="num">26</span><span class="tag">Europe</span></div>
-      <h4>EU confirms data theft in EU Academy breach</h4>
-      <p>The Commission says attackers stole data from its training platform.</p></div>
-    <div class="brief"><div class="btop"><span class="num">27</span><span class="tag">Egypt</span></div>
-      <h4>Fire above Giza tunnel kills 30 in Egypt</h4>
-      <p>Thirty die and 15 are hurt in a blaze above the Ashara Tunnel in Warraq.</p></div>
-    <div class="brief"><div class="btop"><span class="num">28</span><span class="tag">Sudan</span></div>
-      <h4>Sudan's RSF kills 19 in Blue Nile drone attacks</h4>
-      <p>At least 19 people die in strikes on the Blue Nile state.</p></div>
-    <div class="brief"><div class="btop"><span class="num">29</span><span class="tag">Indonesia</span></div>
-      <h4>Over 20 trapped in flooded illegal gold mine in Indonesia</h4>
-      <p>Rescuers race to reach miners after the pit floods.</p></div>
-    <div class="brief"><div class="btop"><span class="num">30</span><span class="tag">Asia</span></div>
-      <h4>North Korea orders Swiss diplomatic office closed</h4>
-      <p>Pyongyang shuts the mission, state media reports.</p></div>
-    <div class="brief"><div class="btop"><span class="num">31</span><span class="tag">South Africa</span></div>
-      <h4>South African court rules Ramaphosa report unlawful</h4>
-      <p>Judges throw out the report that sought the president's removal.</p></div>
+  </div>
+  <div class="sectionhead">And also &mdash; stories 14&ndash;31</div>
+  <div class="morelist">
+    <div class="more"><span class="num">14</span> <span class="tag">Trade</span> Chips and rare earths keep US-China truce fragile</div>
+    <div class="more"><span class="num">15</span> <span class="tag">Tech</span> Musk offers two SpaceX shares to every US child</div>
+    <div class="more"><span class="num">16</span> <span class="tag">Climate</span> OPEC blames EU for COP31 collapse</div>
+    <div class="more"><span class="num">17</span> <span class="tag">Tech</span> US officials split over China spying claims</div>
+    <div class="more"><span class="num">18</span> <span class="tag">Trade</span> Trump tariffs aim to prise trade from China's grip</div>
+    <div class="more"><span class="num">19</span> <span class="tag">Pakistan</span> Pakistan unveils Chinese 'trackless tram' in Lahore</div>
+    <div class="more"><span class="num">20</span> <span class="tag">India</span> India marks 18 years since the 26/11 Mumbai attacks</div>
+    <div class="more"><span class="num">21</span> <span class="tag">Tech</span> Memory-chip shortage triples some RAM prices</div>
+    <div class="more"><span class="num">22</span> <span class="tag">Space</span> FCC clears SpaceX 'Starmind' data-centre satellites</div>
+    <div class="more"><span class="num">23</span> <span class="tag">USA</span> New York bans AI chatbots posing as human to children</div>
+    <div class="more"><span class="num">24</span> <span class="tag">Tech</span> 40-plus states challenge Character.AI data auction</div>
+    <div class="more"><span class="num">25</span> <span class="tag">Cyber</span> Salt Typhoon hackers now use AI tool, Microsoft says</div>
+    <div class="more"><span class="num">26</span> <span class="tag">Europe</span> EU confirms data theft in EU Academy breach</div>
+    <div class="more"><span class="num">27</span> <span class="tag">Egypt</span> Fire above Giza tunnel kills 30 in Egypt</div>
+    <div class="more"><span class="num">28</span> <span class="tag">Sudan</span> Sudan's RSF kills 19 in Blue Nile drone attacks</div>
+    <div class="more"><span class="num">29</span> <span class="tag">Indonesia</span> Over 20 trapped in flooded illegal gold mine in Indonesia</div>
+    <div class="more"><span class="num">30</span> <span class="tag">Asia</span> North Korea orders Swiss diplomatic office closed</div>
+    <div class="more"><span class="num">31</span> <span class="tag">South Africa</span> South African court rules Ramaphosa report unlawful</div>
   </div>
   <div class="datecheck"><b>DATE CHECK</b> &mdash; First reported 25 Nov, not repeated here: Shenzhou-24 docking · Cairo tanker fire · Huawei verdict.</div>
 
