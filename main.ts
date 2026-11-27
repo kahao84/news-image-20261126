@@ -1,9 +1,11 @@
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
-import { join } from "node:path";
+import { join, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
 
 // Entry point: rebuilds the PNG from its single-line base64 form and
 // copies the page and the story data into the output directory.
-const inputDir = process.env.MAKEFUN_INPUT_DIR || ".";
+const scriptDir = dirname(fileURLToPath(import.meta.url));
+const inputDir = process.env.MAKEFUN_INPUT_DIR || scriptDir;
 const outputDir = process.env.MAKEFUN_OUTPUT_DIR || "out";
 mkdirSync(outputDir, { recursive: true });
 

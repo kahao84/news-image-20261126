@@ -4,7 +4,7 @@
 
 # The World in One Image — 26 November 2026
 
-A single 1024×1024 newspaper front page that carries the whole of Wednesday 26 November 2026: 47 stories, a dotted world map with 13 pinned locations, a day-in-UTC timeline, and a "how sure?" honesty legend. Three front-page photos (Macy's parade, the tariff announcement, Kyiv) sit above ten hand-drawn flat illustrations; every story is tagged OFFICIAL, CONFIRMED, REPORTED or CLAIM, and stories first reported on 25 November are kept out of the count in a DATE CHECK box.
+A single 1024×1024 newspaper front page that carries the whole of Thursday 26 November 2026: 47 stories, a dotted world map with 13 pinned locations, a day-in-UTC timeline, and a "how sure?" honesty legend. Three front-page photos (Macy's parade, the tariff announcement, Kyiv) sit above ten hand-drawn flat illustrations; every story is tagged OFFICIAL, CONFIRMED, REPORTED or CLAIM, and stories first reported on 25 November are kept out of the count in a DATE CHECK box.
 
 ## What's inside
 
